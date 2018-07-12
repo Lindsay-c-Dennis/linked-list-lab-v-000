@@ -40,5 +40,5 @@ function indexAt(node, collection, linkedList) {
 }
 
 function insertNodeAt(idx, address, linkedList, collection) {
-  
+  let displacedNode = nodeAt(idx, linkedList, collection);
 }
