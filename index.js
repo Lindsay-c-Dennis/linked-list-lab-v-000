@@ -34,7 +34,7 @@ function indexAt(node, collection, linkedList) {
   let index = 0;
   while (currentNode !== node) {
       index++;
-      currentNode = next(node, collection);
+      currentNode = next(currentNode, collection);
   }
   return index;
 }
